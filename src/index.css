@@ -1,13 +1,69 @@
-body {
+body{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+}
+.navbar{
+  width: auto;
+  height: 60px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  color: aliceblue;
+
+}
+.navbar img{
+  width: 50px;
+  height: auto;
+}
+.navbar input{
+  width: 400px;
+  height: 30px;
+}
+.search button{
+  height: 35px;
+}
+.animelist{
+  display: grid;
+   grid-template-columns: 300px 300px 300px;
+  width: 1000px;
+  margin: auto;
+  padding: 20px;
+  row-gap: 10px;
+  column-gap: 15px;
+}
+.anime{
+  border: solid black 2px;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  background-color: #042630;
+  color: #4c7273;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.moviedetails{
+ 
+ padding: 10px;
+  width: 1000px;
+  text-align: center;
+}
+.moviedetails img{
+  width: 500px;
+  height: 400px;
+  align-items: center;
+  margin-left: 400px;
+}
+.moviedetails .desc{
+  background-color: darkgrey;
+  border:3px dotted black;
+  width: 500px;
+  margin-left: 50px;
+}
+.trailer iframe{
+  width: 500px;
+  height: 300px;
+  margin-left: 400px;
+  padding: 20px;
 }
